@@ -1,0 +1,126 @@
+﻿<!DOCTYPE HTML>
+<!-- /ht Paul Irish - http://front.ie/j5OMXi -->
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>IMD311 portfolio project</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- /ht Andy Clarke - http://front.ie/lkCwyf -->
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="/link/to/apple-touch-icon.png">
+
+<!-- /ht Jeremy Keith - http://front.ie/mLXiaS -->
+<link rel="stylesheet" href="css/lab.css" media="all">
+<link rel="stylesheet" href="css/global.css" media="all">
+
+<script src="http://fast.fonts.com/jsapi/e6c80ee4-cc0b-4ce1-9049-7de10d48947c.js"></script>
+<script src="js/modernizr.custom.43133.js"></script>
+<script src="js/prefixfree.min.js"></script>
+<script src="http://assets.tumblr.com/javascript/tumblelog.js?c02a91ebf4fc76dc78c908c5d1d62531"></script><meta http-equiv="x-dns-prefetch-control" content="off" />
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=2"></' + 'script>')</script>
+</head>
+<body>
+     <header>
+        <div class="heading">
+          <div class="experiment-number">
+            <span>Experiment</span>
+            N<sup>o</sup> 1
+          </div>
+          <h1>IMD311 JS Design</h1>
+        </div>
+      </header>
+
+      <div class="container">
+        <section style="display:none;">
+          <h2>Aim</h2>
+          <p>To re-arrange layouts in small contexts that wouldn't make sense in large contexts. Sometimes there is a need to change the layout order and using CSS - we can do it.</p>
+        </section>
+        <section>
+         <!-- <h2>Method</h2>
+          <p>Resize your browser window to see the layout blocks below change from a small context to a large context.</p> -->
+          <div id="container">
+			<div  class="pgtitle">
+				<header>
+					<img src="images/portfolio_logo_sm.png" alt="jsDesign logo" />
+				   <!--   <span>1</span> -->
+						<h3> Main | About | Contact </h3>
+				</header>
+		    </div>	
+                <nav style="display:none;">
+                <!--  <span>2</span> -->
+                 
+                </nav>
+                <div class="main" role="main">
+				<div class="wrapper">
+                <!-- <span>3</span> -->
+                <!-- <h3>(main)</h3> -->
+					<div id="tile_1"><h3>Color Theory</h3><p>Using flexbox and box-ordinal-group CSS properties, <q>we can change the order</q> of elements on a page at different viewport sizes. In this very basic example I initiate flexbox via a media query in my global styles stylesheet so that only browsers that can a) read media queries and b) have smaller viewports than 33em (i.e smartphones and i.e not IE&lt;9) see the re-ordered items.</p></div>
+					<div id="tile_2"><h3>Print</h3><p>Support for this technique is <a href="http://caniuse.com/#feat=flexbox" target='_blank'>widespread among smartphones</a>, it is safe to use to re-order page contents for mobile and tablet devices.</p><p>This main content area has been coded with multiple media query break-points to accommodate stacking of the tiles as page width decreases. Notice how the background is allways high enough to contain the tiles.</p></div>
+					<div id="tile_3"><h3>Typography</h3><p style="color: #3371aa; text-align: center;"><a href="http://sabaki.aisites.com/endymion/endymion_keats.html" target="_blank">Endymion</a></p><p>HTML5 and CSS3 (just CSS really) is being used here. This site is functional in Chrome, IE, Safari, Opera and Firefox, but only looks as intended in Firefox.</p></div>
+					<div id="tile_4"><h3>PHP/MySQL RDBMS site</h3> <p style="color: #3371aa; text-align: center;"><a href="http://sabaki.aisites.com/dbs323/project/masterAi.php" target="_blank">COTin</a></p></div>
+					<div id="tile_5"><h3>jQuery Form validation</h3><p style="color: #3371aa; text-align: center;"><!--<a href="http://sabaki.aisites.com/IMD233/project/project.html" target="_blank">Belize Beach Club</a>--></p></div>
+					<div id="tile_6"><h3>Image Viewers</h3><p style="color: #3371aa; text-align: center;"><a href="http://sabaki.aisites.com/gridgallery/tutgal.html" target="_blank">Grid Gallery</a></p></div>
+					<div id="tile_7"><h3>ActionScript 3.0</h3><p style="color: #3371aa; text-align: center;"><a href="http://sabaki.aisites.com/koimuseum/koimuseum.html" target="_blank">The Koi Exhibit</a></p></div>
+					<div id="tile_8"><h3>RWD Framework adapted from: </h3><p>“Contentchoreography, A lab experiment”<br /> <a href="http://twitter.com/jordanmoore" target='_blank' style="color: #fff;">Jordan Moore.</a></p><p>Over time
+					newer portfolio pieces will be inserted at the top of the list of tiles. This should allow the site to serve as a history of my learning process. js</p></div>
+				</div>	
+                </div>
+                <aside>
+                  <span>4</span>
+                  <h3>(aside)</h3>
+                  <p>I am using this technique with <a href="http://goldilocksapproach.com" target='blank'>The Goldilocks Approach</a> as my responsive web design boilerplate. It seems to compliment it perfectly along with a mobile first approach.</p>
+                </aside>
+                <div class="example_ad">
+                  <span>5</span>
+                  <h3>(banner ad)</h3>
+                </div>
+                <footer>
+                  <!-- <span>6</span> -->
+                  <!-- <h3>(footer)</h3> -->
+				  <p>Portfolio site: j simmonds 12-2012, <a href="http://sabaki.aisites.com/imd311/imd311simmonds.html" style="color: #3371aa;">jsDesign</a></p>
+                </footer>
+          </div>
+        </section>
+      </div>
+          
+        <!-- <footer>
+          <p>A <a href="http://jordanm.co.uk" target='_blank'>lab experiment</a> by <a href="http://twitter.com/jordanmoore" target='_blank'>Jordan Moore</a>.</p>
+        </footer> -->
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/noisy/1.1/jquery.noisy.min.js"></script>
+      <script>
+        $(function(){
+          $('body, .top').noisy({
+            intensity: 0.2,
+            opacity: 0.06
+          });
+        });
+      </script>
+    <!-- <script type="text/javascript"> 
+       
+       var _gaq = _gaq || [];
+       _gaq.push(['_setAccount', 'UA-7180140-5']);
+       _gaq.push(['_trackPageview']);
+       
+       (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+       
+      </script> 
+	-->
+
+</body>
+<!-- modified by jsimmonds 12-2012 for http://sabaki.aisites.com/imd311/imd311simmonds.html -->
+</html>
