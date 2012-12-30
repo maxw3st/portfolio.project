@@ -8,3 +8,5 @@ expandable.
 It will also give me one place that acts as a TOC with links to projects as they accrue. Initially
 it will be populated with the various efforts produced from courses at AiPgh, and the "on-my-own-time"
 work I've created so far.
+
+Making a change to the file as part of the GitHub tutorial I'm going through.
