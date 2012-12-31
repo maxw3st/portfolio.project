@@ -11,3 +11,5 @@ work I've created so far.
 
 Making a change to the file as part of the GitHub tutorial I'm going through.
 Let's make another change.
+
+Installing Eclipse: tutorial 2 ~17;45
